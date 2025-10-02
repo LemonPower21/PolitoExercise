@@ -17,3 +17,4 @@ if(b%10==0 and h%10==0):
         print("Numero diverse di piastrelle")
 else:
     print("Non rispetta criteri")
+    print("Deve essere multiplo di 10")
