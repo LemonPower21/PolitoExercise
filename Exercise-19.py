@@ -1,0 +1,5 @@
+x = int(input("Inserire numero e ti dico tavole di verità: "))
+print(f"X<0 AND X>100: {not(x>0 and x<100)}")
+print(f"X<0 OR X>100: {not(x>0 or x<100)}")
+print(f"X<0 OR 100<X: {not(x>0 or 100<x)}")
+print(f"X<0 AND X>100 OR X==-1: {not(x>0 and x<100 or x==-1)}")
