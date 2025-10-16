@@ -25,4 +25,5 @@ if(s1.isnumeric()):
     x = int(s1)
     if(x>=0 and x<=9):
         print("E' una cifra decimale")
+
         
