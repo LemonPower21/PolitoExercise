@@ -1,1 +1,47 @@
+1 OK
+Dire quali dei seguenti numeri in complemento a 2 su 8 bit, rappresentati in forma compatta in base esadecimale, è il più vicino allo zero.
 
+  AA, F3, 7F   F3 (In quanto -11)
+
+2 OK
+Rappresentare il numero -8 in complemento a due in base due su quattro bit. Illustrare i vari passi e le eventuali problematiche. Convertirlo poi in base 16 (sempre in complemento a due).
+-8 IN CA2 E' ESPRIMIBILE COME 1000.... Il numero esadecimale corrispondente è 8
+
+3 OK
+Sommare i due numeri su 8 bit in complemento a due (in base 16) A3 e 7F. Illustrare i vari passi e le eventuali problematiche.
+00100010 OVERFLOW su 8 bit
+
+4 OK
+Avendo a disposizione 6 bit, indicare, sia in binario sia in decimale, il più grande e il più piccolo valore ammissibile per la rappresentazione in CA2 ed in binario puro.
+BINARIO PURO = (2^N) -1 cioè (2^6) -1 = 63  | In CA2 da -32 a 31 
+
+5 OK
+I seguenti numeri esadecimali rappresentano numeri binari codificati in CA2 su 8 bit. Riportare tali numeri in ordine crescente di valore. (Non è necessario scrivere il valore decimale corrispondente).
+
+  01 A2 B2 32 80 7F FF  cio è ( 01 32 7F 80 A2 B2 FF)
+
+6 OK
+Indicare il valore del numero esadecimale B5 considerandolo in:
+
+binario puro (181)
+modulo e segno (-53)
+complemento a due (-75)
+
+7 ok
+Effettuare le seguenti operazioni tra numeri binari rappresentati in MS. Indicare inoltre se l’operazione comporta overflow, motivando la risposta.
+
+010011+011101 ( OVERFLOW Due positivi danno negativo)
+011101+110111 (Errore aritmetico dovuto ad M&S)
+
+8 Ok
+Dati i numeri 24 e 47 (in base 10), convertirli in binario e sommarli. Sapendo che il risultato deve essere rappresentato su 6 bit, indicare se l’operazione genera overflow e motivare la risposta. (Genera Overflow su 6 bit) (Ne servono 7)
+
+9
+Convertire in binario il seguente numero decimale: 177.
+Convertire poi il risultato in:
+ottale
+esadecimale
+10
+Dati i seguenti 3 numeri su base 8 e in complemento a 2, calcolare la somma totale e rappresentarla sempre in base 8 su 8 bit:
+
+7, 13, 11
