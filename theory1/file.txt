@@ -36,12 +36,22 @@ Effettuare le seguenti operazioni tra numeri binari rappresentati in MS. Indicar
 8 Ok
 Dati i numeri 24 e 47 (in base 10), convertirli in binario e sommarli. Sapendo che il risultato deve essere rappresentato su 6 bit, indicare se l’operazione genera overflow e motivare la risposta. (Genera Overflow su 6 bit) (Ne servono 7)
 
-9
+9 OK
 Convertire in binario il seguente numero decimale: 177.
 Convertire poi il risultato in:
 ottale
 esadecimale
-10
+
+BIN = 10110001
+HEX = B1
+OCT = 261
+
+10 OK
 Dati i seguenti 3 numeri su base 8 e in complemento a 2, calcolare la somma totale e rappresentarla sempre in base 8 su 8 bit:
 
 7, 13, 11
+
+ 7 = 00000111
+13 = 00001101
+11 = 00001010
+S = 00011111
