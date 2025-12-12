@@ -1,0 +1,5 @@
+sesso
+droga
+diocane
+troia
+C++
