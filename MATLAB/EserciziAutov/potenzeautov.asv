@@ -1,0 +1,9 @@
+%HO AUTOVETTORE RELATIVO DI MODULO MASSIMO E DEVO SEMPLICEMENTE RUOTARE
+%1)NORMALIZZO 2)RUOTO 3)CALCOLO_AUTOVALORE
+
+clear all
+clc
+close all
+
+[lambda,w,m] = funz(A,z,toll,m_max)
+A = []
