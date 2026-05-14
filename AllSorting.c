@@ -117,6 +117,7 @@ int main(void)
 {
     int vettorez[] = {1,2,3,7,6,8,9,4,2,0};
     int n = 9;
+    //USARNE UNO ALLA VOLTA
     InserctionSort(vettorez,n);
     printf("\n");
     BubbleSort(vettorez,n);
