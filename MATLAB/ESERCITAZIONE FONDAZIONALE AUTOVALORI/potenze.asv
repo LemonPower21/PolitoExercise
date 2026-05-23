@@ -1,0 +1,16 @@
+function [lambdamax,w,m] = potenze(A,z,toll,mmax)
+    lambda
+    w = z/norm(z)
+    for m=1:mmax
+        %Z ITERATA SUCCESSIVA
+        z = A*w
+        %CALCOLO AUTOVALORE
+        lambdamax = w'*z
+        %NORMALIZZO 
+        w = z/norm(z)
+        if(abs(lambdamax-lambda)<=toll*abs(lambamax))
+            break
+        end
+    end
+    lambda = lambdamax
+end

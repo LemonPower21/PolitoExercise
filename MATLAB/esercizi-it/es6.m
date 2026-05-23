@@ -1,0 +1,8 @@
+A = [1 1 0 0;1 2 1 0; 0 1 3 1; 0 0 1 4]'
+B = A + 3*eye(4)
+
+eig(B*B) %AUTOVALORI TUTTI POSITIVI
+%MOLTEPLICITA' ALGEBRICA PARI AD 1 QUINDI PARI ALLA GEOMETRICA (GEOM<=ALG
+%SEMPRE)
+RsB = max(abs(eig(B*B)))
+RsB2 = max(abs(eig(B)))^2
